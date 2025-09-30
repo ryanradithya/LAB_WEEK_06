@@ -69,9 +69,80 @@ class MainActivity : AppCompatActivity() {
                     "Curious George",
                     "Award winning investigator",
                     "https://cdn2.thecatapi.com/images/bar.jpg"
+                ),
+                CatModel(
+                    Gender.Unknown,
+                    CatBreed.AmericanCurl,
+                    "Cat A",
+                    "Cat A Bio",
+                    "https://cdn2.thecatapi.com/images/2m1.jpg"
+                ),
+                CatModel(
+                    Gender.Unknown,
+                    CatBreed.AmericanCurl,
+                    "Cat B",
+                    "Cat B Bio",
+                    "https://cdn2.thecatapi.com/images/8vm.jpg"
+                ),
+                CatModel(
+                    Gender.Unknown,
+                    CatBreed.AmericanCurl,
+                    "Cat C",
+                    "Cat C Bio",
+                    "https://cdn2.thecatapi.com/images/abc.jpg"
+                ),
+                CatModel(
+                    Gender.Unknown,
+                    CatBreed.AmericanCurl,
+                    "Cat D",
+                    "Cat D Bio",
+                    "https://cdn2.thecatapi.com/images/bcq.jpg"
+                ),
+                CatModel(
+                    Gender.Unknown,
+                    CatBreed.AmericanCurl,
+                    "Cat E",
+                    "Cat E Bio",
+                    "https://cdn2.thecatapi.com/images/blj.jpg"
+                ),
+                CatModel(
+                    Gender.Unknown,
+                    CatBreed.AmericanCurl,
+                    "Cat F",
+                    "Cat F Bio",
+                    "https://cdn2.thecatapi.com/images/bss.jpg"
+                ),
+                CatModel(
+                    Gender.Unknown,
+                    CatBreed.AmericanCurl,
+                    "Cat G",
+                    "Cat G Bio",
+                    "https://cdn2.thecatapi.com/images/c8t.jpg"
+                ),
+                CatModel(
+                    Gender.Unknown,
+                    CatBreed.AmericanCurl,
+                    "Cat H",
+                    "Cat H Bio",
+                    "https://cdn2.thecatapi.com/images/e04.jpg"
+                ),
+                CatModel(
+                    Gender.Unknown,
+                    CatBreed.AmericanCurl,
+                    "Cat I",
+                    "Cat I Bio",
+                    "https://cdn2.thecatapi.com/images/MTU4MTUxMA.jpg"
+                ),
+                CatModel(
+                    Gender.Unknown,
+                    CatBreed.AmericanCurl,
+                    "Cat J",
+                    "Cat J Bio",
+                    "https://cdn2.thecatapi.com/images/i-j1kCi3b.jpg"
                 )
             )
         )
+
     }
     private fun showSelectionDialog(cat: CatModel) {
         AlertDialog.Builder(this)
